@@ -1,0 +1,6 @@
+The Date is not in the standard format.
+Some rows in the PropertyAddress is NULL
+The PropertyAddress has both the City and House Address in the same column.
+The OwnerAddress has the state, city, and address on the same column.
+There are some duplicate rows that need to be removed.
+Some Columns would not be useful for the analysis and therefore should be deleted.
