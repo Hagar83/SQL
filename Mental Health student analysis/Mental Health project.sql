@@ -1,11 +1,11 @@
 -- Exploring data
 SELECT COUNT(*)
 FROM students;
---Exploring data by type
+--Exploring data by student type
 SELECT inter_dom, COUNT(*) AS records_per_student_type
 FROM students
 GROUP BY inter_dom;
---Showing the difference between two types
+--Showing the difference between two types of students
 SELECT *
 FROM students 
 WHERE inter_dom = 'Inter';
